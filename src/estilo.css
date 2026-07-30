@@ -1,0 +1,67 @@
+/* CONFIGURAÇÕES PADRÃO DA PAGINA
+*/
+
+body, html {
+    font: 16px "lato" sans-serif;
+    margin: 0;
+    color: #777;
+    height: 100%;
+}
+
+.conteudo {
+    color: #777;
+    background-color: white;
+    padding: 50px 80px;
+    text-align: justify;
+}
+
+h3 {
+    text-transform: uppercase;
+    color: #111;
+    text-align: center;
+}
+
+/* EFEITO PARALLAX 
+*/
+
+.caixa1, .caixa2, .caixa3, .caixa4 {
+    height: 100%;
+    position: relative;
+    opacity: 0.6;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.caixa1 {
+    background-image: url(./imagens/imagem1.jpg);
+}
+
+.caixa2 {
+    background-image: url(./imagens/imagem2.jpg);
+}
+
+.caixa3 {
+    background-image: url(./imagens/imagem3.jpg);
+}
+
+.caixa4 {
+    background-image: url(./imagens/imagem4.jpg);
+}
+
+.titulo1 {
+    position: absolute;
+    left: 0%;
+    top: 45%;
+    width: 100%;
+    text-align: center;   
+}
+
+.titulo1 span.titulo {
+    color: #fff;
+    background-color: #111;
+    font-size: 25px;
+    padding: 15px;
+    letter-spacing: 5px;
+}
